@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-200 flex flex-col">
+    <nav class="bg-blue-500 p-1 font-bold flex md:flex-row flex-col md:justify-between md:items-center items-start">
+        <div class="left-nav flex gap-3 items-center px-5 md:self-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/4922/4922073.png" alt="Logo" class="inline-block h-8 w-8 mr-2">
+            <h1 class="text-2xl">BloggerSpot</h1>
+        </div>
+        <div class="nav-right w-full">
+            <ul class="flex space-x-4 md:justify-end justify-around py-2 px-5 md:p-5 md:text-lg text-sm">
+                <li><a class="hover:text-white hover:underline" href="#">Home</a></li>
+                <li><a class="hover:text-white hover:underline" href="#">About</a></li>
+                <li><a class="hover:text-white hover:underline" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="text-center py-12">
+        <h1 class="text-4xl font-bold">Welcome to BloggerSpot !!!</h1>
+        <p class="mt-4">Explore my latest posts on music, travel, and more!</p>
+    </header>
+    
+    <div class="container mx-auto p-6">
+        <h2 class="text-3xl font-bold mb-4">Latest Blog Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-semibold mb-2 text-center">Music</h3>
+                <img src="https://www.jamespreller.com/wp-content/uploads/2022/12/getty_626660256_2000108620009280158_388846.jpg" alt="Music Icon" class="w-100 h-50 mb-4 rounded">
+                <p class="text-gray-700 mb-4">Music is a language that everyone can understand, no matter where they are from or how old they are. It can make you feel things, tell stories, and bring you comfort or joy.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read more</a>
+            </div>
+            <div class="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-semibold mb-2 text-center">Travelling</h3>
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2020/04/Chennai-to-Tirupati-by-road-600.jpg" alt="Travel Icon" class="w-100 h-50 mb-4 rounded">
+                <p class="text-gray-700 mb-4">Traveling is a great way to see new places, meet new people, and learn about different cultures. It makes us think in new ways, gives us new ideas, and makes memories that last.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read more</a>
+            </div>
+            <div class="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-semibold mb-2 text-center">Masti</h3>
+                <img src="https://live.staticflickr.com/4073/4860278157_71f1def753_b.jpg" alt="Masti Icon" class="w-100 h-50 mb-4 rounded">
+                <p class="text-gray-700 mb-4">Masti is all about having fun, laughing, and living in the moment without worrying. It makes friends and family closer, makes memories that will last a lifetime, and makes life more fun.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read more</a>
+            </div>
+        </div>
+        <footer class="mt-12 text-center text-gray-600">
+            <p>&copy; 2025 BloggerSpot. All rights reserved.</p>
+</body>
+</html>
