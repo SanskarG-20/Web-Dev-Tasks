@@ -1,0 +1,234 @@
+body{
+    display: flex;
+    background-color: #a96cbb;
+    font-family: 'Goldman', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 330px;
+    padding: 20px;
+}
+
+.card-border{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 16px;
+    border-color: gold;
+    background-color: rgb(63, 136, 233);
+}
+
+.card-header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row; 
+}
+
+.stage{
+    font-size: 12px;
+    color: rgb(90, 78, 78);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(209, 197, 197);
+    background-color: rgb(241, 235, 235);
+    padding: 1px;
+    margin-left: -10px;
+}
+
+.name{
+    font-size: 20px;
+    margin-left: -39px;
+}
+
+.hp{
+    font-size: 10px;
+    margin-top: 17px;
+    margin-right: -41px;
+}
+
+.hp-value{
+    margin-top: 9px;
+    margin-right: -40px;
+    font-size: 23px;
+}
+
+.hp-icon{
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.pre-stage{
+    justify-content: left;
+}
+
+.evolve-image{
+    display: inline-block;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(226, 197, 197);
+    background-color: rgb(238, 230, 230);
+    margin-left: -3px;
+    margin-top: -10px;
+    position: relative;
+}
+
+.evolve{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 7px;
+    padding-right: 10px;
+    font-size: 11px;
+    border-style: solid;
+    border-color: rgb(226, 197, 197);
+    background-color: rgb(238, 230, 230);
+    margin-left: -8px;
+    border-left: rgb(238, 230, 230);
+    position: relative;
+}
+
+.card-image{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -41px;
+    border-width: 1px;
+}
+
+.info{
+    font-size: 8px;
+    color: rgb(5, 4, 4);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(226, 197, 197);
+    background-color: rgb(238, 230, 230);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 1px;
+}
+
+.ability{
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    border-style: solid;
+    border-color: rgb(226, 197, 197);
+    background-color: rgb(211, 36, 36);
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 10px;
+}
+
+.ability-name{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(211, 36, 36);
+    margin-left: 5px;
+}
+
+.ability-info{
+    font-size: 11px;
+    color: rgb(5, 4, 4);
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+.attack-header{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.attack-name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.attack-info{
+    font-size: 11px;
+    color: rgb(5, 4, 4);
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: -5px;
+}
+
+.weakness-retreat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 9px;
+}
+
+.weakness-resistance{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(226, 197, 197);
+    background-color: rgb(238, 230, 230);
+    border-radius: 10px;
+    margin-left: -20px;
+    padding-left: 8px;
+    padding-right: 15px;
+}
+
+.retreat{display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(226, 197, 197);
+    background-color: rgb(238, 230, 230);
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 50px;
+    margin-right: -18px;
+}
+
+.footer{
+    display: inline-block;
+    font-size: 8px;
+    text-indent: 0;
+}
+
+.mpc{
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(5, 4, 4);
+    margin-left: 10px;
+    margin-top: -15px
+}
+
+.extra{
+    font-size: 8px;
+    margin-left: 150px;
+    margin-top: -12px;
+}
+
+.Copyright{
+    font-size: 8px;
+    color: rgb(5, 4, 4);
+    margin-left: 10px;
+    margin-top: -40px;
+    margin-bottom: 24px;
+}
