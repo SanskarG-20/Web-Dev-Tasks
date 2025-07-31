@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <a href="https://www.google.com"><font size="5">Home</a>  |  </font>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><font size="5">Mail Us</font></a>
+            <hr>
+        </nav>
+        <h1>Contact Us</h1>
+        </header>
+        <form action="" method="post">
+        <div>
+            <label for="name">Full Name: </label>
+            <input id="name" type="text" required placeholder="Enter your full name">
+        </div>
+        <br><br>
+        <div>
+            <label for="email">Email: </label>
+            <input id="email" type="email" required placeholder="Enter your Email ID">
+        </div>
+        <br><br>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" required placeholder="Enter your Password">
+        </div>
+        <br><br>
+        <div>
+            Gender:
+            <input type="radio" id="male" name="gender" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" required>
+            <label for="female">Other</label>
+        </div>
+        <br><br>
+        <div>
+            <label for="country">Country: </label>
+            <select name="country" id="country" required>
+                <option value="none">Select your country</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Germany">Germany</option>
+                <option value="Australia">Australia</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+                <option value="UK">UK</option>
+                <option value="South Africa">South Africa</option>
+            </select>
+        </div>
+        <br><br>
+        <div>
+            <label for="file">Upload your file: </label>
+            <input type="file" id="file">
+        </div>
+        <br><br>
+        <div>
+            <input type="checkbox" id="condition" required>
+            <label for="condition">I agree to the <a href="https://policies.google.com/terms?utm_source=about.google&utm_medium=referral&utm_campaign=footer">T&Cs</a>.</label>
+        </div>
+        <br><br>
+        <footer>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </footer>
+    </form>
+    </body>
+</html>
