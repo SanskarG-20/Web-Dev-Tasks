@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Fjalla+One&family=Goldman:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Grades</h2>
+        <label for="studentName">Student Name</label>
+        <input type="text" id="studentName" placeholder="Enter student name" required>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Enter subject name" required>
+        <label for="marks">Marks</label>
+        <input type="number" id="marks" placeholder="Enter marks (0-100)" min="0" max="100" required>
+        <div class="buttons">
+            <button id="submit" onclick="submitData()">Submit</button>
+            <button id="clear" onclick="clearAll()">Clear All</button>
+        </div>
+        <p id="record"></p>
+        <p id="total"></p>
+    </div>
+</body>
+</html>
