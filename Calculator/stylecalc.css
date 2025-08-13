@@ -1,0 +1,139 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(150deg, blue, green, yellow);
+    display: flex;
+    height: inherit;
+    justify-content: center;
+
+}
+
+.calculator{
+    background: rgb(226, 225, 225);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    height: 500px;
+    padding: 33px 33px;
+}
+
+.textField{
+    background: white;
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow : 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 250px
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.calc-button-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;    
+}
+
+.num{
+    background: white;
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow : 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sign{
+    background: white;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow : 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: orangered;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.clear-text {
+    background: white;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: orangered;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.delete-left{
+    background: white;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: orangered;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.check{
+    background: white;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: orangered;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.percent{
+    background: white;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: orangered;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.decimal{
+    background: white;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.equals{
+    background: orangered;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
